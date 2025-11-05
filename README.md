@@ -1,4 +1,7 @@
-# Embodify Presentation
+# Mirror Explanation Slide
+
+## Disclaimer
+> This currently doesn't work properly in Firefox, as the MathJax inside the `<iframe>` is rendered wayyy to big.
 
 ## Useful Links
 - [Documentation](https://decker.cs.tu-dortmund.de/decks/decker/manual/index.html)
@@ -28,7 +31,9 @@
 - `support` (directory)
     - Contains third party dependencies (at the moment only `three.js`)
 - `julians-krams` (directory)
-    - Contains my `keyframe-plugin` that allows keyframing anything in an `iframe` using Reveil.js' fragments.
+    - Contains my `keyframe-plugin` that allows keyframing anything in an `iframe` using Reveil.js' fragments
+    - Contains my `mathjax-morph` library used to transition one equation to another
+    - Contains the main code for the mirror explanation slide
 
 ## Notes
 - On some versions of decker, the `static-resources` property does not work. In these cases, try a different one (if that feature is important to you).
