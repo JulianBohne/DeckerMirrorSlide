@@ -1,0 +1,10 @@
+# Settings for the whole project
+author: Julian Bohnenkämper
+title: Virtual Mirrors
+affiliation: TU Dortmund University
+resource-pack: exe:tudo
+
+# Things that should be included, even if Decker can't figure out that they are referenced
+static-resources:
+  - support
+  - julians-krams

@@ -1,0 +1,6 @@
+# The public folder contains the compiled artifacts
+public
+# The .decker folder contains some other generated files
+.decker
+# VSCode files
+.vscode
