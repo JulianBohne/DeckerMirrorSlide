@@ -3,6 +3,14 @@
 ## Disclaimer
 > This currently doesn't work properly in Firefox, as the MathJax inside the `<iframe>` is rendered wayyy to big.
 
+## If you want to include this in another deck ...
+1. ... copy the `julians-krams` and `support` directory to your project folder (should be in the root folder)
+2. ... make sure to add the directories in the `static-resources`, as seen in the `decker.yaml`
+3. ... copy the `mirror-content.md` file from the `mirror-slide` directory to a location of your choosing in your project
+4. ... reference / include the `mirror-content.md` file, as seen in the `main-deck.md`
+    > Note: Leave an empty line before / after the include so decker doesn't get confused
+5. ... make sure to run this in Chrome (see disclaimer above)
+
 ## Useful Links
 - [Documentation](https://decker.cs.tu-dortmund.de/decks/decker/manual/index.html)
     - Documentation as a Website or a PDF at the top
